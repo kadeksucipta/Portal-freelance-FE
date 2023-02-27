@@ -1,0 +1,16 @@
+.column-contact {
+    column-count: 1;
+}
+.header-contact {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    color: white;
+}
+.nav-portal {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.btn-loker {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+}
+.focus:focus {
+    outline-offset: none;
+}

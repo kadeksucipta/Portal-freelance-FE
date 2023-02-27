@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container-register {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.box-register {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);  
+    height: 30rem ;
+    width: 100%;
+}
+.card-register {
+    max-width: 100%;
+    margin-top: 18%;
+    width: 30%;
+    height: 700px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-register {
+    width: 100%;
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

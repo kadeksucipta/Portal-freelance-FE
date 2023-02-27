@@ -1,0 +1,15 @@
+.header-profile {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    color: white;
+}
+.card-profile {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.footer-profile {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    color: white;
+    height: 50px;
+    text-align: center;
+}

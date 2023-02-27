@@ -1,0 +1,24 @@
+.header-logout {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    color: white;
+}
+.card-profile {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.footer-profile {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+.btn-logout {
+    background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);
+    color: white;
+}
+.btn-logout-no {
+    border: 2px solid #A5A6F6;
+    color: #A5A6F6;
+    background-color: white;
+}

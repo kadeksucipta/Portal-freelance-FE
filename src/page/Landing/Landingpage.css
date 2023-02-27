@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.box {
+  background: radial-gradient(circle at top right, #EF5DAB, #A5A6F6);  
+  color: white;
+  padding: 21rem 1rem;
+}
+.column {
+  column-count: 1;
+}
+.roket {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+  float: right;
+  width: 50%;
+  margin-top: -20%;
+  filter: drop-shadow(0 0 0.25rem rgb(255, 255, 255));
+}
+.title {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+  float: left;
+  width: 50%;
+  margin-top: -20%;
+  margin-left: 15%;
+  font-size: 20px;
+}
+.sub {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+  float: left;
+  width: 50%;
+  margin-top: -15%;
+  margin-left: 15%;
+  font-size: 35px;
+  color: black;
+}
+.end {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+  float: left;
+  width: 50%;
+  margin-top: -5%;
+  margin-left: 15%;
+  font-size: 20px;
+}
+.daftar {
+    margin-left: 15%;
+    font-size: 18px;
+    background-color: #543efc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+.login {
+    margin-left: 5%;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #543efc;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+.nav-portal {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
