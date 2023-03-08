@@ -248,7 +248,7 @@ const Landingpage = () => {
             >
               <Card.Img
                 variant="top"
-                src={"http://localhost:8000/images/" + item.image_url}
+                src={"https://strange-clam-battledress.cyclic.app/images/" + item.image_url}
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
