@@ -51,7 +51,7 @@ const Landingpage = () => {
   }, []);
 
   const fetchProducts = () => {
-    fetch(`http://localhost:8000/api/products?q=${keyword}&skip=0&limit=50`)
+    fetch(`https://strange-clam-battledress.cyclic.app/api/products?q=${keyword}&skip=0&limit=50`)
       .then((res) => res.json())
       .then((data) => {
         setProducts(data.data);
@@ -61,7 +61,7 @@ const Landingpage = () => {
 
   const handleClick = (category) => {
     setSelect(category);
-    fetch(`http://localhost:8000/api/products?limit=50&category=${category}`)
+    fetch(`https://strange-clam-battledress.cyclic.app/api/products?limit=50&category=${category}`)
       .then((res) => res.json())
       .then((data) => {
         setProducts(data.data);
@@ -70,7 +70,7 @@ const Landingpage = () => {
   };
 
   const fetchTags = () => {
-    fetch(`http://localhost:8000/api/tags`)
+    fetch(`https://strange-clam-battledress.cyclic.app/api/tags`)
       .then((res) => res.json())
       .then((data) => {
         setTags(data);
@@ -79,7 +79,7 @@ const Landingpage = () => {
   };
 
   const handleTags = (tags) => {
-    fetch(`http://localhost:8000/api/products?limit=50&tags=${tags}`)
+    fetch(`https://strange-clam-battledress.cyclic.app/api/products?limit=50&tags=${tags}`)
       .then((res) => res.json())
       .then((data) => {
         setProducts(data.data);

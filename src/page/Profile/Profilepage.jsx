@@ -36,7 +36,7 @@ const Profilepage = () => {
 
   const fetchProfile = (formData) => {
     const token = localStorage.getItem("token");
-    fetch(`http://localhost:8000/auth/me`, {
+    fetch(`https://strange-clam-battledress.cyclic.app/auth/me`, {
       method: "GET",
       body: formData,
       headers: { Authorization: `Bearer ${token}` },
